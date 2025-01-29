@@ -1,0 +1,187 @@
+.city-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-bottom: 40px;
+    border-top-color: rgb(96, 141, 203);
+    border-top-width: 2px;
+    border-top-style: double;
+
+}
+.Moscow-image {
+    width: 100%;
+    border-radius: 10px;
+    grid-column: 1;
+}
+
+.city-name{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 600;
+    grid-column: 2;
+}
+.Description{
+    display: grid;
+    grid-template-rows: 60px 1fr;
+    margin-bottom: 30px;
+}
+.Description-topic{
+    font-size: 36px;
+    font-weight: 300;
+    margin-left: 20px;
+
+}
+.Tourism{
+    display: grid;
+    grid-template-rows: 60px 200px 400px;
+}
+.Tourist-city{
+    font-size: 36px;
+    font-weight: 400;
+
+}
+
+.tourist-picture-grid{
+    display: grid;
+    grid-template-columns: 700px 700px;
+    column-gap: 60px;
+    padding-top: 4px;
+}
+.tourist-picture1-image{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.tourist-picture1{
+    display: grid;
+    grid-template-rows: 1fr 30px;
+}
+.picture1-image{
+    width: 100%;
+    border-radius: 12px;
+}
+.picture1-name{
+    display: grid;
+    justify-content: center;
+
+}
+.picture1name{
+    display: inline-block;
+    font-style: italic;
+    margin-top: 4px;
+
+}
+.tourist-picture2-image{
+    padding-left: 30px;
+    padding-right: 80px;
+}
+.tourist-picture2{
+    display: grid;
+    grid-template-rows: 1fr 30px;
+
+}
+.picture2-image{
+    width: 100%;
+    border-radius: 12px;
+}
+.picture2-name{
+    display: grid;
+    justify-content: center;
+
+}
+.picture2name{
+    font-style: italic;
+    display: inline-block;
+    margin-top: 4px;
+}
+.Employment-grid{
+    margin-top: 100px;
+    display: grid;
+    grid-template-rows: 80px 1fr;
+    margin-bottom: 40px;
+}
+.Employment{
+    margin-left: 20px;
+    font-size: 36px;
+    font-weight: 400;
+}
+.Employment-detail{
+    display: grid;
+
+}
+.Education-grid{
+    display: grid;
+    grid-template-rows: 60px 200px 400px;
+}
+.Education{
+    font-size: 36px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+.Education-details{
+    margin-left: 5px;
+
+}
+.Education-pictures{
+    display: grid;
+    grid-template-columns: 700px 700px;
+    padding-top: 4px;
+    column-gap: 60px;
+}
+.left-school{
+    display: grid;
+    grid-template-rows: 1fr 20px;
+}
+.school-image1{
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.school-image{
+    border-radius: 12px;
+    width: 100%;
+}
+.school1-name{
+    display: grid;
+    justify-content: center;
+    
+}
+.school1{
+    font-style: italic;
+    display: inline-block;
+    margin-top: 4px;
+}
+.right-school{
+    display: grid;
+    grid-template-rows: 1fr 20px;
+}
+.school-image2{
+    padding-left: 80px;
+    padding-right: 30px;
+
+}
+
+.school2-name{
+    display: grid;
+    justify-content: center;
+    
+}
+.school2{
+    font-style: italic;
+    display: inline-block;
+    margin-top: 4px;
+}
+.cost-of-living-grid{
+    margin-top: 70px;
+    display: grid;
+    grid-template-rows: 60px 90px;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: double;
+}
+.living-cost{
+    font-size: 36px;
+    margin-left: 30px;
+}
