@@ -1,0 +1,96 @@
+button{
+    font-family: "IBM Plex Sans";
+    font-size: 18px;
+    background-color: transparent;
+}
+button:hover{
+    opacity: 1;
+    color: blue;
+    cursor: pointer;
+}
+.upper-header{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 75px;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(19, 11, 100);
+    z-index: 100;
+    background-color: rgb(195, 213, 238);
+}
+.left-section{
+    align-items: center;
+    display: flex;
+
+}
+.logo{
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 24px;
+    background-color: transparent;
+    border-radius: 16px;
+    background-color: transparent;
+}
+.offers{
+    border: none;
+    margin-left: 20px;
+}
+.offers:hover{
+    opacity: 1;
+    color: blue;
+    cursor: pointer;
+
+}
+.reception{
+    margin-left: 20px;
+    margin-right: 24px;
+    border: none;
+}
+.orientation{
+    border-left:20px;
+    border: brown;
+}
+
+.middle-section{
+    align-items: center;
+    display: flex;
+
+}
+.insurance{
+    margin-left: 24px;
+    border-radius: 8px;
+    border: rgb(19, 11, 100);
+}
+.Destinations{
+    margin-left: 50px;
+    margin-right: 30px;
+    background-color: transparent;
+    border-color: rgb(96, 141, 203);
+    padding: 8px;
+    border-radius: 4px;
+}
+.Destinations:hover{
+    padding: 4px;
+
+}
+.right-section{
+    align-items: center;
+    display: flex;
+
+}
+.sign-up{
+    margin-left: 10px;
+    padding: 8px;
+    margin-right: 20px;
+    border-radius: 4px;
+    border-color: rgb(48, 85, 133);
+}
+.sign-up:hover{
+    padding: 6px;
+}

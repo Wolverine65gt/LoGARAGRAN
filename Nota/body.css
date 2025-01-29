@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(195, 213, 238);
+    font-family: "IBM Plex Sans";
+    font-weight: 500;
+    
+}
+p{
+    font-family: "IBM Plex Sans";
+    padding: 10px;
+    font-size: 22px;
+}
+.text{
+    display: grid;
+    grid-template-rows: 250px 1fr;
+    position: absolute;
+    font-family: "IBM Plex Sans";
+}
+.background-container{
+    position: relative;
+    height: 100%;
+}
+.background-image{
+    filter: blur(50px);
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+}
+.Point{
+    height: 30px;
+    margin-right: 8px;
+}
+.topic{
+    margin-left: 30px;
+    font-size: 56px;
+    padding: 30px;
+
+}
+.Housing{
+    font-size: 56px;
+    margin-left: 12px;
+}
+.Housing-details{
+    font-size: 18px;
+    margin-left: 4px;
+    margin-bottom: 90px;
+
+}
